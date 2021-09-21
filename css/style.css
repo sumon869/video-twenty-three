@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul,ol{
+    list-style: none;
+}
+/* header css start */
+header {
+    padding: 11px 0;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul li a {
+    color: rgb(212, 45, 45);
+    padding: 33px 20px;
+    line-height: 60px;
+    font-weight: 500;
+    font-size: 17px;
+    transition: .4s;
+}
+.menu ul li a:hover{
+    color: rgb(146, 119, 119);
+}
+/* banner css start */
+.banner{
+    background: url(../img/tropical-beach-background-banner-9798957.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.wraper{
+    border: 2px solid green;
+}
+.grow{
+    flex-basis: 70%;
+}
+.small{
+    width: 30%;
+}
+.row{}
+.item{
+    flex: 1 0 0%;
+}
+.bigger{
+    flex-grow: 3;
+}
+.center{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
